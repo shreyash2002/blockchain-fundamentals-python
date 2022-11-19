@@ -4,9 +4,10 @@ This is a simple program to create our own blockchain
 
 We’ll need to import following libraries to start out -
 
-sha256 : The sha256 function will give us the ability to compute hashes.
-json : We want JSON for parsing our data 
-time : It is used for timestamping.
+<break>
+sha256 : The sha256 function will give us the ability to compute hashes.<break>
+json : We want JSON for parsing our data <break>
+time : It is used for timestamping.<break>
 
 
 You may ask 👇
@@ -29,11 +30,11 @@ We’re getting a JSON representation of the data in the block and returning the
 
 The block dictionary stores the following:
 
-index: The current index of the block in the blockchain (starting from 0).
-timestamp: The timestamp of when this block was added.
-transactions: The list of the pending transactions.
-proof: This is a number that is used to roughly verify the validity of a block. The process of finding this proof is known as “mining.” We have decided to leave out mining in our blockchain since it requires a lot of computing power.
-prevhash: This is the hash of the previous block in our blockchain. This is how we connect all the blocks in a chain, since each block just stores the hash of last.
+index: The current index of the block in the blockchain (starting from 0).<break>
+timestamp: The timestamp of when this block was added.<break>
+transactions: The list of the pending transactions.<break>
+proof: This is a number that is used to roughly verify the validity of a block. The process of finding this proof is known as “mining.” We have decided to leave out mining in our blockchain since it requires a lot of computing power.<break>
+prevhash: This is the hash of the previous block in our blockchain. This is how we connect all the blocks in a chain, since each block just stores the hash of last.<break>
 
 
 I made this program by using QuestBook https://openquest.xyz/ Tutorial.
